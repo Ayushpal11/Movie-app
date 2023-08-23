@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+# Movie App 🎬🍿
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to **Movie App**, your ultimate destination for exploring the fascinating world of movies! 🌟
 
-## Available Scripts
+![Movie App Banner](Home.png)
 
-In the project directory, you can run:
+Dive into an immersive cinematic experience like never before. With **Movie App**, you can effortlessly access movie details and information through a powerful API, all while enjoying the sleek and intuitive interface of our React-based application.
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* [About the Project](#🚀Getting-Started)
+    * [Features](#features)
+    * [Built With](#built-with)
+* [Working Demo](#working-demo)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Roadmap](#roadmap)
+* [Contributing](#contributing)
+* [License](#license)
+* [Contact](#contact)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### 🚀Getting-Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Movie App** is a React application that allows users to search for movies, view detailed information about them, and save their favorites for later. 
 
-### `npm run build`
+### Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* **Search** for movies by title
+* **View** detailed information about movies
+* **Save** your favorite movies
+* **Explore** recommended movies
+* **Browse** the top movies of all time
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Built With
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* [React](https://reactjs.org/)
+* [The Movie Database API](https://www.themoviedb.org/documentation/api)
+* [Material UI](https://material-ui.com/)
+* [React Router](https://reactrouter.com/)
+* [React Icons](https://react-icons.github.io/react-icons/)
+* [React Slick](https://react-slick.neostack.com/)
+* [React Scroll](https://www.npmjs.com/package/react-scroll)
+* [React Toastify](https://fkhadra.github.io/react-toastify/introduction)
 
-### `npm run eject`
+## Working Demo
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Home Page
+![Home Page](Screenshots/Home.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Movie Details Page
+![Movie Details Page](Screenshots/MovieDetails.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Tv Show Page
+![Tv Show Page](Screenshots/TvShows.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Contact Page
+![Contact Page](Screenshots/About.png)
 
-## Learn More
+### About Page
+![About Page](Screenshots/AboutUs.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To get a local copy up and running, follow these steps.
 
-### Code Splitting
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* npm
+  ```
+  npm install npm@latest -g 
 
-### Analyzing the Bundle Size
+  ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Installation
 
-### Making a Progressive Web App
+1. Clone the repo
+   ```
+   git clone 
+    ```
+2. Install NPM packages
+    ```
+    npm install
+    ```
+3. Start the application
+    ```
+    npm start
+    ```
+4. Enjoy! 🎉
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Usage
 
-### Advanced Configuration
+**Movie App** is a React application that allows users to search for movies, view detailed information about them, and save their favorites for later.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Roadmap
 
-### Deployment
+See the [open issues](
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contributing
 
-### `npm run build` fails to minify
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Fork the Project
+
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Contact
+
+* [LinkedIn](https://www.linkedin.com/in/Ayushpal11)
+* [Email](mailto:ayushpal74553@gmail.com)
+
