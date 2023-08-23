@@ -116,5 +116,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 * [LinkedIn](https://www.linkedin.com/in/Ayushpal11)
+* [Github](https://github.com/Ayushpal11)
 * [Email](mailto:ayushpal74553@gmail.com)
 
