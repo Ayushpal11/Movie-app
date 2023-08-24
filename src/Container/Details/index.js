@@ -26,12 +26,11 @@ const DetailsContainer = () => {
 		params && params.mediatype && params.mediatype !== ''
 			? params.mediatype.toLowerCase()
 			: '';
-	//const API_KEY = process.env.REACT_APP_NOT_SECRET_CODE;
-
+	const API_KEY = process.env.REACT_APP_NOT_SECRET_CODE;
 	const fetchData = async () => {
 		try {
 			const { data } = await axios.get(
-				`https://api.themoviedb.org/3/movie/${id}?api_key=63cc32369ba48cabf5c72ee9968b3ec4#`
+				`https://api.themoviedb.org/3/movie/${id}?api_key=${API_KEY}`
 			);
 			setContent(data);
 			//console.log('fetchData details',  data);
@@ -43,7 +42,7 @@ const DetailsContainer = () => {
 	const creditsFetch = async () => {
 		try {
 			const { data } = await axios.get(
-				`https://api.themoviedb.org/3/movie/${id}?api_key=63cc32369ba48cabf5c72ee9968b3ec4#`
+				`https://api.themoviedb.org/3/movie/${id}?api_key=${API_KEY}`
 			);
 			setCredits(data.cast);
 			console.log('sdata', data);
